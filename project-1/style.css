@@ -1,0 +1,112 @@
+
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4{
+    font-size: 10px;
+    margin-top: 15px;
+    font-style: italic;
+}
+
+.valentine-banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.valentine-banner-container .valentine-banner{
+    background:linear-gradient(-55deg, #fff 29%, #fff 10%, #000 90%, #000 20%);
+    box-sizing: border-box;
+   
+        border: 2px solid #000;
+      
+        margin: 10px;
+    border-radius: 5px;
+    margin:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+    overflow: hidden;
+}
+
+.valentine-banner-container .valentine-banner .shoe{
+  
+    flex:1 1 250px;
+    padding:10px;
+    text-align: center;
+}
+
+.valentine-banner-container .valentine-banner .shoe img{
+    width:70%;
+}
+
+.valentine-banner-container .valentine-banner .content{
+  
+    flex:1 1 250px;
+    text-align: center;
+    padding:40px;
+    text-transform: uppercase;
+}
+
+.valentine-banner-container .valentine-banner .content span{
+    color:#eee;
+    font-size: 25px;
+}
+
+.valentine-banner-container .valentine-banner .content h3{
+ 
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    /* margin-top: 10px; */
+
+}
+.valentine-banner-container .valentine-banner .content h5{
+ 
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    height: 40px;
+    width: 155px;
+    line-height: 40px;
+    /* background: #000; */
+    border: 2px solid #000;
+    color: #000;
+    margin: 5px auto;
+    border-style: dotted;
+    border-radius: 30px;
+    margin-top: 5px;
+
+
+}
+
+.valentine-banner-container .valentine-banner .content p{
+    font-size: 10px;
+    padding:20px 0;
+
+}
+
+.valentine-banner-container .valentine-banner .content .btn{
+    display: block;
+    height:40px;
+    width:150px;
+    line-height: 40px;
+    background: #000;
+    color:#fff;
+    margin:5px auto;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+
+
+.valentine-banner-container .valentine-banner .women img{
+    width:100%;
+}
+
