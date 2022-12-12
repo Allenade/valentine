@@ -18,7 +18,12 @@ h4{
 }
 
 .valentine-banner-container .valentine-banner{
-    background:linear-gradient(-55deg, #ff7675 29%, #d63031 29.1%, #d63031 68%, #ff7675 68.1%);
+    background: linear-gradient(
+        to right,
+        red 46%,
+        #fff 40%,
+        #fff 100%
+      );
     box-sizing: border-box;
    
         border: 2px solid #000;
@@ -43,6 +48,7 @@ h4{
 
 .valentine-banner-container .valentine-banner .shoe img{
     width:70%;
+  
 }
 
 .valentine-banner-container .valentine-banner .content{

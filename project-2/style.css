@@ -40,13 +40,14 @@ margin: 7% 0 0 25%;
 .valentine-text h3{
     font-weight: 100;
     margin-top: 25px;
-   
+    letter-spacing: 5px;
+word-spacing: 2px;
 
 }
 .valentine-smallbox p{
     font-size: 12px;
-    max-width: 75%;
-    margin: 10px 0 0 10px;
+    max-width: 80%;
+    margin: 10px 0 0 30px;
 letter-spacing: 1px;
 }
 @media screen and (max-width: 1200px) {
