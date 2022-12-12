@@ -18,7 +18,7 @@ h4{
 }
 
 .valentine-banner-container .valentine-banner{
-    background:linear-gradient(-55deg, #fff 29%, #fff 10%, #000 90%, #000 20%);
+    background:linear-gradient(-55deg, #ff7675 29%, #d63031 29.1%, #d63031 68%, #ff7675 68.1%);
     box-sizing: border-box;
    
         border: 2px solid #000;
@@ -63,7 +63,7 @@ h4{
     font-size: 25px;
     letter-spacing: 1px;
     font-weight: 100;
-    /* margin-top: 10px; */
+    
 
 }
 .valentine-banner-container .valentine-banner .content h5{
