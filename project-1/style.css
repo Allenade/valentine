@@ -5,18 +5,15 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h4 {
-    font-size: 10px;
-    margin-top: 15px;
-    font-style: italic;
-}
 
+/* container */
 .valentinecode-banner-container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+/* banner */
 .valentinecode-banner-container .valentinecode-banner {
     background: linear-gradient(to right,
             red 45%,
@@ -37,6 +34,7 @@ h4 {
     overflow: hidden;
 }
 
+/* shoe */
 .valentinecode-banner-container .valentinecode-banner .valentinecode-shoe {
 
     flex: 1 1 250px;
@@ -44,9 +42,17 @@ h4 {
     text-align: center;
 }
 
+/* img */
 .valentinecode-banner-container .valentinecode-banner .valentinecode-shoe img {
     width: 70%;
 
+}
+
+/* text content */
+.valentinecode-content h4 {
+    font-size: 10px;
+    margin-top: 15px;
+    font-style: italic;
 }
 
 .valentinecode-banner-container .valentinecode-banner .valentinecode-content {
@@ -96,6 +102,8 @@ h4 {
 
 }
 
+/* button  */
+
 .valentinecode-banner-container .valentinecode-banner .valentinecode-content .valentinecode-btn {
     display: block;
     height: 40px;
@@ -111,9 +119,7 @@ h4 {
 
 
 
-/* .valentinecode-banner-container .valentinecode-banner .women img{
-    width:100%;
-} */
+
 
 
 @media screen and (max-width: 600px) {
@@ -123,7 +129,7 @@ h4 {
                 white 55%,
                 red 50%,
                 red 100%);
-      
+
     }
 
 

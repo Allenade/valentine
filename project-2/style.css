@@ -29,34 +29,45 @@ margin: 7% 0 0 25%;
 .valentine-smallbox{
     width: 40%;
     height: 300px;
-    background-color: #fff;
+    background: linear-gradient(to top,
+    white 0%,
+    white 62%,
+    red 50%,
+    red 100%);
+
+
+   
+    /* padding: 10px; */
+    text-transform: uppercase;
+
     margin: 40px 0 0 0;
     box-shadow: 0 5px 10px #0005;
 
 }
 .valentine-text{
-    background-color: #ff3300 ;
+  
     padding: 30px 0;
     text-align: center;
     color: #fff;
 }
-.valentine-text h3{
+/* .valentine-text h3{
     font-weight: 100;
     margin-top: 25px;
     letter-spacing: 5px;
 word-spacing: 2px;
+font-size:1vw;
 
-}
+} */
 .valentine-smallbox p{
-    font-size: 12px;
-    max-width: 80%;
-    margin: 10px 0 0 20px;
-letter-spacing: 1px;
+    font-size: 0.85vw;
+    max-width: 100%;
+    margin: 30px 0 0 20px;
+letter-spacing: 0.2px;
 }
 .valentine-smallbox label{
     font-weight: 100;
     font-size: 15px;
-    margin: 5px 0 0  20px;
+    margin: 14px 0 0  20px;
 }
 .valentine-form-box{
     /* padding: 0.15rem 0; */
@@ -90,10 +101,10 @@ button{
     background-color: #ff3300;
 }
 .valentine-container h3{
-    font-size: 30px;
+    font-size:2vw;
     margin: 15px 0 0 0;
     text-align: center;
-    font-weight: 700;
+    font-weight: 100;
 }
 .valentine-container h2{
     font-size: 30px;
