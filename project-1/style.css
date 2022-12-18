@@ -11,16 +11,16 @@ h4{
     font-style: italic;
 }
 
-.valentine-banner-container{
+.valentinecode-banner-container{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.valentine-banner-container .valentine-banner{
+.valentinecode-banner-container .valentinecode-banner{
     background: linear-gradient(
         to right,
-        red 46%,
+    red 45%,
         #fff 40%,
         #fff 100%
       );
@@ -39,19 +39,19 @@ h4{
     overflow: hidden;
 }
 
-.valentine-banner-container .valentine-banner .shoe{
+.valentinecode-banner-container .valentinecode-banner .valentinecode-shoe{
   
     flex:1 1 250px;
     padding:10px;
     text-align: center;
 }
 
-.valentine-banner-container .valentine-banner .shoe img{
+.valentinecode-banner-container .valentinecode-banner .valentinecode-shoe img{
     width:70%;
   
 }
 
-.valentine-banner-container .valentine-banner .content{
+.valentinecode-banner-container .valentinecode-banner .valentinecode-content{
   
     flex:1 1 250px;
     text-align: center;
@@ -59,12 +59,12 @@ h4{
     text-transform: uppercase;
 }
 
-.valentine-banner-container .valentine-banner .content span{
+.valentinecode-banner-container .valentinecode-banner .valentinecode-content span{
     color:#eee;
     font-size: 25px;
 }
 
-.valentine-banner-container .valentine-banner .content h3{
+.valentinecode-banner-container .valentinecode-banner .valentinecode-content h3{
  
     font-size: 25px;
     letter-spacing: 1px;
@@ -72,7 +72,7 @@ h4{
     
 
 }
-.valentine-banner-container .valentine-banner .content h5{
+.valentinecode-banner-container .valentinecode-banner .valentinecode-content h5{
  
     font-size: 25px;
     letter-spacing: 1px;
@@ -91,13 +91,13 @@ h4{
 
 }
 
-.valentine-banner-container .valentine-banner .content p{
+.valentinecode-banner-container .valentinecode-banner .valentinecode-content p{
     font-size: 10px;
     padding:20px 0;
 
 }
 
-.valentine-banner-container .valentine-banner .content .btn{
+.valentinecode-banner-container .valentinecode-banner .valentinecode-content .valentinecode-btn{
     display: block;
     height:40px;
     width:150px;
@@ -112,7 +112,35 @@ h4{
 
 
 
-.valentine-banner-container .valentine-banner .women img{
+/* .valentinecode-banner-container .valentinecode-banner .women img{
     width:100%;
-}
+} */
 
+
+@media screen and (max-width: 600px) {
+    .valentinecode-banner-container .valentinecode-banner{
+            background: linear-gradient(
+                to top,
+                white 0%,
+                white 55%,
+                red 50%,
+                red 100%
+          );
+        box-sizing: border-box;
+       
+            border: 2px solid #000;
+          
+            margin: 10px;
+        border-radius: 5px;
+        margin:10px;
+        display: flex;
+        flex-direction: row;
+        /* align-items: center;
+        justify-content: center; */
+        flex-wrap: wrap;
+      
+        overflow: hidden;
+    }
+   
+    
+}
