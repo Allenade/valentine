@@ -8,113 +8,113 @@
 
 /* container */
 .valentinecode-banner-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
 }
 
 /* banner */
 .valentinecode-banner-container .valentinecode-banner {
     background: linear-gradient(to right,
-            red 45%,
+            red 43%,
             #fff 40%,
-            #fff 100%);
-    box-sizing: border-box;
+            #fff 100%) !important;
+    box-sizing: border-box !important;
 
-    border: 2px solid #000;
+    border: 2px solid #000 !important;
 
-    margin: 10px;
-    border-radius: 5px;
-    margin: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+    margin: 10px !important;
+    border-radius: 5px !important;
+    margin: 10px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
 
-    overflow: hidden;
+    overflow: hidden !important;
 }
 
 /* shoe */
 .valentinecode-banner-container .valentinecode-banner .valentinecode-shoe {
 
-    flex: 1 1 250px;
-    padding: 10px;
-    text-align: center;
+    flex: 1 1 250px !important;
+    padding: 10px !important;
+    text-align: center !important;
 }
 
 /* img */
-.valentinecode-banner-container .valentinecode-banner .valentinecode-shoe img {
-    width: 70%;
+.valentinecode-banner-container .valentinecode-banner .valentinecode-shoe .valentinecode-image {
+    width: 70% !important;
 
 }
 
 /* text content */
-.valentinecode-content h4 {
-    font-size: 10px;
-    margin-top: 15px;
-    font-style: italic;
+.valentinecode-content .valentinecode-remeber {
+    font-size: 10px !important;
+    margin-top: 15px !important;
+    font-style: italic !important;
 }
 
 .valentinecode-banner-container .valentinecode-banner .valentinecode-content {
 
-    flex: 1 1 250px;
-    text-align: center;
-    padding: 40px;
-    text-transform: uppercase;
+    flex: 1 1 250px !important;
+    text-align: center !important;
+    padding: 40px !important;
+    text-transform: uppercase !important;
 }
-
+/* 
 .valentinecode-banner-container .valentinecode-banner .valentinecode-content span {
     color: #eee;
     font-size: 25px;
-}
+} */
 
-.valentinecode-banner-container .valentinecode-banner .valentinecode-content h3 {
+.valentinecode-banner-container .valentinecode-banner .valentinecode-content .valentinecode-get {
 
-    font-size: 25px;
-    letter-spacing: 1px;
-    font-weight: 100;
-
-
-}
-
-.valentinecode-banner-container .valentinecode-banner .valentinecode-content h5 {
-
-    font-size: 25px;
-    letter-spacing: 1px;
-    font-weight: 100;
-    height: 40px;
-    width: 155px;
-    line-height: 40px;
-
-    border: 2px solid #000;
-    color: #000;
-    margin: 5px auto;
-    border-style: dotted;
-    border-radius: 30px;
-    margin-top: 5px;
+    font-size: 25px !important;
+    letter-spacing: 1px !important;
+    font-weight: 100 !important;
 
 
 }
 
-.valentinecode-banner-container .valentinecode-banner .valentinecode-content p {
-    font-size: 10px;
-    padding: 20px 0;
+.valentinecode-banner-container .valentinecode-banner .valentinecode-content .valentinecode-coupon {
+
+    font-size: 25px !important;
+    letter-spacing: 1px !important;
+    font-weight: 100 !important;
+    height: 40px !important;
+    width: 155px !important;
+    line-height: 40px !important;
+
+    border: 2px solid #000 !important;
+    color: #000 !important;
+    margin: 5px auto !important;
+    border-style: dotted !important;
+    border-radius: 30px !important;
+    margin-top: 5px !important;
+
+
+}
+
+.valentinecode-banner-container .valentinecode-banner .valentinecode-content .valentinecode-friday {
+    font-size: 10px !important;
+    padding: 20px 0 !important;
 
 }
 
 /* button  */
 
 .valentinecode-banner-container .valentinecode-banner .valentinecode-content .valentinecode-btn {
-    display: block;
-    height: 40px;
-    width: 150px;
-    line-height: 40px;
-    background: #000;
-    color: #fff;
-    margin: 5px auto;
-    text-decoration: none;
-    border-radius: 30px;
-    margin-top: 10px;
+    display: block !important;
+    height: 40px !important;
+    width: 150px !important;
+    line-height: 40px !important;
+    background: #000 !important;
+    color: #fff !important;
+    margin: 5px auto !important;
+    text-decoration: none !important;
+    border-radius: 30px !important;
+    margin-top: 10px !important;
 }
 
 
@@ -128,7 +128,7 @@
                 white 0%,
                 white 55%,
                 red 50%,
-                red 100%);
+                red 100%) !important;
 
     }
 
