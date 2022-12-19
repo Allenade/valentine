@@ -1,167 +1,223 @@
-*{
-    margin:0; padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* small box */
 
-.valentine-container{
-width: 50%;
-height: auto;
-background: #c3cbcfea;
-display: flex;
-justify-content: center;
-/* flex-direction: row; */
-flex-flow: wrap;
-margin: 7% 0 0 25%;
+.valentinecode-container {
+    width: 50% !important;
+    height: auto !important;
+    background: #c3cbcfea !important;
+    display: flex !important;
+    justify-content: center !important;
+
+    flex-flow: wrap !important;
+    margin: 7% 0 0 25% !important;
 }
-.valentine-box{
-    width: 40%;
-    height: 340px;
-    background: #fff;
-    margin: 20px;
-    box-sizing: border-box;
-    font-size: 50px;
-    box-shadow: 0 5px 10px #0005;
 
 
-}
-.valentine-smallbox{
-    width: 40%;
-    height: 300px;
+
+.valentinecode-smallbox {
+    width: 42% !important;
+    height: 320px !important;
     background: linear-gradient(to top,
-    white 0%,
-    white 62%,
-    red 50%,
-    red 100%);
+            white 0%,
+            white 62%,
+            red 50%,
+            red 100%) !important;
 
 
-   
-    /* padding: 10px; */
-    text-transform: uppercase;
 
-    margin: 40px 0 0 0;
-    box-shadow: 0 5px 10px #0005;
+    text-transform: uppercase !important;
 
-}
-.valentine-text{
-  
-    padding: 30px 0;
-    text-align: center;
-    color: #fff;
-}
-/* .valentine-text h3{
-    font-weight: 100;
-    margin-top: 25px;
-    letter-spacing: 5px;
-word-spacing: 2px;
-font-size:1vw;
-
-} */
-.valentine-smallbox p{
-    font-size: 0.85vw;
-    max-width: 100%;
-    margin: 30px 0 0 20px;
-letter-spacing: 0.2px;
-}
-.valentine-smallbox label{
-    font-weight: 100;
-    font-size: 15px;
-    margin: 14px 0 0  20px;
-}
-.valentine-form-box{
-    /* padding: 0.15rem 0; */
-    display: flex;
-    flex-direction: column;
-   width: 72%;
-}
- .valentine-form-box input{
-    flex-basis: 100%;
-   
-    border-radius: 20px;
-    margin: 10px 0 0  15px;
-
- }
- input[type=text] {
-    padding: 1px 0px 5px 13px;
-  }
-button{
-   padding: 0.7rem 1rem;
-   margin: 10px 0px 0px 15px;
-   border-radius: 20px;
-   border-style: none;
-   background-color: #ff3300;
-   color: #fff;
-}
-.valentine-women {
-    width: 110px;
-    margin: 30px 0 0 60px;
-}
-.valentine-woman-box{
-    background-color: #ff3300;
-}
-.valentine-container h3{
-    font-size:2vw;
-    margin: 15px 0 0 0;
-    text-align: center;
-    font-weight: 100;
-}
-.valentine-container h2{
-    font-size: 30px;
-    text-align: center;
-    margin: 20px 0 0 0;
-    font-weight: 100;
+    margin: 40px 0 0 0 !important;
+    box-shadow: 0 5px 10px #0005 !important;
 
 }
-#valentine-btnsend1{
-    padding: 0.7rem 2rem;
-    margin: 10px 0px 0px 75px;
-    border-radius: 20px;
-    border-style: none;
-    background-color: #ff3300;
-    color: #fff;
-    font-weight: 600;
+
+.valentinecode-text {
+
+    padding: 30px 0 !important;
+    text-align: center !important;
+    color: #fff !important;
+}
+
+.valentinecode-smallbox .valentinecode-subscribe {
+    font-size: 0.92vw !important;
+    max-width: 100% !important;
+    margin: 30px 0 0 20px !important;
+    letter-spacing: 0.2px !important;
+}
+
+.valentinecode-smallbox .valentinecode-emailtext {
+    font-weight: 100 !important;
+    font-size: 15px !important;
+    margin: 14px 0 0 20px !important;
+}
+
+.valentinecode-form-box {
+
+    display: flex !important;
+    flex-direction: column !important;
+    width: 72% !important;
+}
+
+.valentinecode-form-box .valentinecode-email {
+    flex-basis: 100% !important;
+
+    border-radius: 20px !important;
+    margin: 10px 0 0 15px !important;
+
+}
+
+.valentinecode-email {
+    padding: 4% 2% !important;
+    border: 1px solid gray;
+}
+
+.valentinecode-btnsend {
+    padding: 0.7rem 1rem !important;
+    margin: 10px 0px 0px 15px !important;
+    border-radius: 20px !important;
+    border-style: none !important;
+    background-color: #ff3300 !important;
+    color: #fff !important;
+}
+
+/* box */
+.valentinecode-box {
+    width: 40% !important;
+    height: 60vh !important;
+    background: #fff !important;
+    margin: 20px !important;
+    box-sizing: border-box !important;
+    font-size: 50px !important;
+    box-shadow: 0 5px 10px #0005 !important;
+
+
+}
+
+.valentinecode-women {
+    width: 60% !important;
+    margin: 30px 0 0 18% !important;
+}
+
+.valentinecode-woman-box {
+    background-color: #ff3300 !important;
+}
+
+.valentinecode-container .valentinecode-special {
+    font-size: 2.4vw !important;
+    margin: 15px 0 0 0 !important;
+    text-align: center !important;
+    font-weight: 100 !important;
+}
+
+.valentinecode-container .valentinecode-offer {
+    font-size: 2vw !important;
+    text-align: center !important;
+    margin: 32px 0 0 0 !important;
+    font-weight: 100 !important;
+
+}
+
+.valentinecode-btnsend1 {
+    padding: 0.5rem 1rem !important;
+    margin: 7% 0px 0px 40% !important;
+    border-radius: 20px !important;
+    border-style: none !important;
+    background-color: #ff3300 !important;
+    color: #fff !important;
 }
 
 @media screen and (max-width: 1200px) {
-    .valentine-container{
-        padding: 0px 0px 20px;
+    .valentinecode-container {
+        padding: 0px 0px 20px !important;
     }
-    .valentine-box{
-        width: 40%;
+
+    .valentinecode-box {
+        width: 40% !important;
+        height: 55vh !important;
     }
-    .valentine-smallbox{
-        width: 40%;
-        height: fit-content;
-        padding: 6px;
+
+    .valentinecode-smallbox {
+        width: 46% !important;
+        height: 51vh !important;
+        padding: 4% 0% !important;
     }
-    button{
-        padding: 0.3rem 0.3rem;
-        margin: 10px 0px 0px 15px;
-        border-radius: 20px;
-        border-style: none;
-        background-color: #ff3300;
-        color: #fff;
-     }
-     #valentine-btnsend1{
-        padding: 0.7rem 1rem;
-        margin: 7px 0px 0px 50px;
-        border-radius: 20px;
-        border-style: none;
-        background-color: #ff3300;
-        color: #fff;
-        font-weight: 600;
+
+    .valentinecode-btnsend {
+        padding: 5% 7% !important;
+        margin: 10px 0px 0px 15px !important;
+        border-radius: 20px !important;
+        border-style: none !important;
+        background-color: #ff3300 !important;
+        color: #fff !important;
     }
-     
+
+    .valentinecode-btnsend1 {
+        padding: 5% 9% !important;
+        margin: 10% 0px 0px 35% !important;
+        border-radius: 20px !important;
+        border-style: none !important;
+        background-color: #ff3300 !important;
+        color: #fff !important;
+
+    }
+
+    .valentinecode-smallbox .valentinecode-subscribe {
+        font-size: 1.2vw !important;
+        max-width: 100% !important;
+        margin: 30px 0 0 20px !important;
+        letter-spacing: 0.2px !important;
+    }
 }
 
 @media screen and (max-width: 600px) {
-    .valentine-box{
-        width: 90%;
+    .valentinecode-box {
+        width: 90% !important;
+        height: 70% !important;
+        padding: 0 0 15px 0 !important;
     }
-    .valentine-smallbox{
-        width: 90%;
-        height: fit-content;
-        padding: 10px;
+
+
+
+    .valentinecode-container .valentinecode-special {
+        font-size: 4.8vw !important;
+        margin: 15px 0 0 0 !important;
+        text-align: center !important;
+        font-weight: 100 !important;
     }
+
+    .valentinecode-container .valentinecode-offer {
+        font-size: 4.3vw !important;
+        text-align: center !important;
+        margin: 32px 0 0 0 !important;
+        font-weight: 100 !important;
+
+    }
+
+    .valentinecode-btnsend {
+        padding: 5% 7% !important;
+
+    }
+
+    /* smallbox  */
+    .valentinecode-smallbox {
+        width: 90% !important;
+        height: fit-content !important;
+        padding: 10px !important;
+    }
+
+    .valentinecode-smallbox .valentinecode-subscribe {
+        font-size: 2vw !important;
+        max-width: 100% !important;
+        margin: 30px 0 0 20px !important;
+        letter-spacing: 0.2px !important;
+    }
+
+
 }
