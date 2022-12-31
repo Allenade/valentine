@@ -585,3 +585,109 @@
 /* index5 .................................................................................................................. */
 /* index5 .................................................................................................................. */
 /* index5 .................................................................................................................. */
+
+/* first container */
+.valentinecode-countercontainer {
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* main container */
+.valentinecode-maincontainer {
+  width: 32%;
+  height: 20vh;
+  border: solid rgb(164, 202, 160);
+}
+
+/* content containenr */
+.valentinecode-contentcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0 0 0;
+}
+/* image */
+.valentinecode-imagebox {
+  border-radius: 50%;
+  margin-top: 10px;
+}
+/* text */
+.valentinecode-contenttext {
+  font-size: 1.3vw;
+}
+/* paragraph */
+.valentinecode-paragraph {
+  font-size: 1vw;
+  margin: 7px 0 0 0;
+}
+.valentinecode-online {
+  margin-left: 30px;
+}
+@media screen and (max-width: 1200px) {
+  .valentinecode-maincontainer {
+    width: 37%;
+    height: 20vh;
+    border: solid rgb(164, 202, 160);
+  }
+  .valentinecode-contenttext {
+    font-size: 1.5vw;
+  }
+  .valentinecode-paragraph {
+    font-size: 1.3vw;
+    margin: 7px 0 0 0;
+  }
+  .valentinecode-online {
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .valentinecode-maincontainer {
+    width: 47%;
+    height: 20vh;
+    border: solid rgb(164, 202, 160);
+  }
+  .valentinecode-contenttext {
+    font-size: 1.8vw;
+  }
+  .valentinecode-paragraph {
+    font-size: 1.5vw;
+    margin: 7px 0 0 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .valentinecode-maincontainer {
+    width: 57%;
+    height: 17vh;
+  }
+  .valentinecode-contenttext {
+    font-size: 2.5vw;
+  }
+  .valentinecode-paragraph {
+    font-size: 1.9vw;
+  }
+  .valentinecode-imagebox {
+    width: 80%;
+  }
+  .valentinecode-online {
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .valentinecode-maincontainer {
+    width: 65%;
+    height: 17vh;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .valentinecode-maincontainer {
+    width: 70%;
+  }
+  .valentinecode-contenttext {
+    font-size: 2.8vw;
+  }
+  .valentinecode-paragraph {
+    font-size: 2.2vw;
+  }
+}
