@@ -588,106 +588,243 @@
 
 /* first container */
 .valentinecode-countercontainer {
-  margin-top: 10%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-top: 10% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
 /* main container */
 .valentinecode-maincontainer {
-  width: 32%;
-  height: 20vh;
-  border: solid rgb(164, 202, 160);
+  width: 32% !important;
+  height: 20vh !important;
+  border: solid rgb(164, 202, 160) !important;
 }
 
 /* content containenr */
 .valentinecode-contentcontainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 10px 0 0 0;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin: 10px 0 0 0 !important;
 }
 /* image */
 .valentinecode-imagebox {
-  border-radius: 50%;
-  margin-top: 10px;
+  border-radius: 50% !important;
+  margin-top: 10px !important;
 }
 /* text */
 .valentinecode-contenttext {
-  font-size: 1.3vw;
+  font-size: 1.3vw !important;
 }
 /* paragraph */
 .valentinecode-paragraph {
-  font-size: 1vw;
-  margin: 7px 0 0 0;
+  font-size: 1vw !important;
+  margin: 7px 0 0 0 !important;
 }
 .valentinecode-online {
-  margin-left: 30px;
+  margin-left: 30px !important;
 }
 @media screen and (max-width: 1200px) {
   .valentinecode-maincontainer {
-    width: 37%;
-    height: 20vh;
-    border: solid rgb(164, 202, 160);
+    width: 37% !important;
+    height: 20vh !important;
+    border: solid rgb(164, 202, 160) !important;
   }
   .valentinecode-contenttext {
-    font-size: 1.5vw;
+    font-size: 1.5vw !important;
   }
   .valentinecode-paragraph {
-    font-size: 1.3vw;
-    margin: 7px 0 0 0;
+    font-size: 1.3vw !important;
+    margin: 7px 0 0 0 !important;
   }
   .valentinecode-online {
-    margin-left: 20px;
+    margin-left: 20px !important;
   }
 }
 @media screen and (max-width: 800px) {
   .valentinecode-maincontainer {
-    width: 47%;
-    height: 20vh;
-    border: solid rgb(164, 202, 160);
+    width: 47% !important;
+    height: 20vh !important;
+    border: solid rgb(164, 202, 160) !important;
   }
   .valentinecode-contenttext {
-    font-size: 1.8vw;
+    font-size: 1.8vw !important;
   }
   .valentinecode-paragraph {
-    font-size: 1.5vw;
-    margin: 7px 0 0 0;
+    font-size: 1.5vw !important;
+    margin: 7px 0 0 0 !important;
   }
 }
 @media screen and (max-width: 600px) {
   .valentinecode-maincontainer {
-    width: 57%;
-    height: 17vh;
+    width: 57% !important;
+    height: 17vh !important;
   }
   .valentinecode-contenttext {
-    font-size: 2.5vw;
+    font-size: 2.5vw !important;
   }
   .valentinecode-paragraph {
-    font-size: 1.9vw;
+    font-size: 1.9vw !important;
   }
   .valentinecode-imagebox {
-    width: 80%;
+    width: 80% !important;
   }
   .valentinecode-online {
-    margin-left: 10px;
+    margin-left: 10px !important;
   }
 }
 @media screen and (max-width: 600px) {
   .valentinecode-maincontainer {
-    width: 65%;
-    height: 17vh;
+    width: 65% !important;
+    height: 17vh !important;
   }
 }
 
 @media screen and (max-width: 430px) {
   .valentinecode-maincontainer {
-    width: 70%;
+    width: 70% !important;
   }
   .valentinecode-contenttext {
-    font-size: 2.8vw;
+    font-size: 2.8vw !important;
   }
   .valentinecode-paragraph {
-    font-size: 2.2vw;
+    font-size: 2.2vw !important;
+  }
+}
+
+/* index6..................................................... */
+/* index6..................................................... */
+/* index6..................................................... */
+
+.valentinecode-bigbox {
+  margin: 10% 0 0 0 !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.valentinecode-mainbox {
+  width: 35% !important;
+  height: 30vh !important;
+  border: solid rgb(173, 150, 176) !important;
+  display: flex !important;
+  padding: 30px 0 0 0 !important;
+}
+.valentinecode-icon {
+  margin: 0 0 0 50px !important;
+  font-size: 3vw !important;
+  color: rgb(162, 132, 166) !important;
+}
+.valentinecode-contentbox {
+  margin: 0 0 0 9% !important;
+}
+.valentinecode-contenttextbox {
+  font-weight: 100 !important;
+  font-size: 1.5vw !important;
+  width: 80% !important;
+}
+.valentinecode-contentparagraphbox {
+  font-weight: 100 !important;
+  font-size: 1.25vw !important;
+  padding: 13px 0 0 0 !important;
+  color: rgb(161, 136, 165) !important;
+}
+.valentinecode-flash {
+  font-size: 1.2vw !important;
+  color: rgb(22, 177, 243) !important;
+}
+.valentinecode-contentindex {
+  margin: 10px 0 0 56% !important;
+  width: 100% !important;
+  font-size: 1.2vw !important;
+}
+.valentinecode-seven {
+  color: rgb(162, 132, 166) !important;
+}
+
+@media screen and (max-width: 1200px) {
+  .valentinecode-mainbox {
+    height: 27vh !important;
+  }
+  .valentinecode-contenttext {
+    font-size: 1.5vw !important;
+  }
+  .valentinecode-paragraph {
+    font-size: 1.3vw !important;
+    margin: 7px 0 0 0 !important;
+  }
+  .valentinecode-online {
+    margin-left: 20px !important;
+  }
+}
+@media screen and (max-width: 800px) {
+  .valentinecode-mainbox {
+    width: 40% !important;
+    height: 22vh !important;
+  }
+  .valentinecode-contenttextbox {
+    font-size: 2vw !important;
+    width: 100% !important;
+  }
+  .valentinecode-contentparagraphbox {
+    font-size: 1.6vw !important;
+  }
+  .valentinecode-icon {
+    margin: 0 0 0 20px !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .valentinecode-mainbox {
+    width: 40% !important;
+    height: 23vh !important;
+  }
+  .valentinecode-contenttextbox {
+    font-size: 2.2vw !important;
+    width: 95% !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .valentinecode-mainbox {
+    width: 70% !important;
+    height: 22vh !important;
+  }
+  .valentinecode-contenttextbox {
+    font-size: 3.4vw !important;
+    width: 100% !important;
+  }
+  .valentinecode-contentparagraphbox {
+    font-size: 3vw !important;
+  }
+  .valentinecode-icon {
+    font-size: 7vw !important;
+  }
+  .valentinecode-contentindex {
+    font-size: 2.7vw !important;
+  }
+  .valentinecode-flash {
+    font-size: 2.5vw !important;
+    color: rgb(22, 177, 243) !important;
+  }
+}
+@media screen and (max-width: 300px) {
+  .valentinecode-mainbox {
+    width: 85% !important;
+    height: 22vh !important;
+  }
+  .valentinecode-contenttextbox {
+    font-size: 4.2vw !important;
+  }
+  .valentinecode-contentparagraphbox {
+    font-size: 3vw !important;
+  }
+  .valentinecode-icon {
+    font-size: 7vw !important;
+  }
+  .valentinecode-contentindex {
+    font-size: 2.7vw !important;
+  }
+  .valentinecode-flash {
+    font-size: 2.5vw !important;
+    color: rgb(22, 177, 243) !important;
   }
 }
