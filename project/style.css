@@ -1461,3 +1461,246 @@
     font-size: 3vw !important;
   }
 }
+
+/* index10 ........................................................................ */
+/* index10 .......................................................................... */
+
+.valentinecode-timercontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10% 0;
+}
+
+.valentinecode-maintimer {
+  /* border: solid rgb(0, 0, 0) !important; */
+  width: 40% !important;
+  height: 30vh !important;
+}
+.valentinecode-mainicon {
+  font-size: 2vw !important;
+  color: rgb(247, 199, 105) !important;
+}
+.valentinecode-maintimercontainer {
+  display: flex !important;
+  width: 100% !important;
+  justify-content: center !important;
+  margin: 10px 0 0 0 !important;
+}
+.valentinecode-maintimercontainer1 {
+  margin: 0 0 0 5% !important;
+
+  width: 7% !important;
+  height: 5vh !important;
+  background-color: rgb(65, 139, 240) !important;
+  border-radius: 15% !important;
+  color: #fff !important;
+}
+.valentinecode-maintimercontainer2 {
+  margin: 0 0 0 1% !important;
+  width: 7% !important;
+  height: 5vh !important;
+  text-align: center !important;
+  background-color: rgb(65, 139, 240) !important;
+  color: #fff !important;
+  border-radius: 15% !important;
+}
+.valentinecode-numberdiv {
+  margin: 11% 20% !important;
+  font-size: 2vw !important;
+}
+.valentinecode-limited {
+  font-size: 2vw !important;
+  margin: 10px 0 0 0 !important;
+}
+.valentinecode-mainicon {
+  margin: 10px 0 0 0 !important;
+}
+
+.valentinecode-mainparagraphss {
+  display: flex !important;
+  /* justify-content: center; */
+}
+
+.valentinecode-mainparagraphs {
+  display: flex !important;
+  justify-content: center !important;
+}
+.valentinecode-mainparagraph1 {
+  position: relative !important;
+  right: 8% !important;
+  top: 2px !important;
+  font-size: 1.4vw !important;
+}
+.valentinecode-mainparagraph2 {
+  position: relative !important;
+  left: 2% !important;
+  top: 2px !important;
+  font-size: 1.4vw !important;
+}
+.valentinecode-mainparagraph3 {
+  position: relative !important;
+  left: 10% !important;
+  top: 2px !important;
+  font-size: 1.4vw !important;
+}
+.valentinecode-mainparagraph4 {
+  position: relative !important;
+  left: 17% !important;
+  top: 2px !important;
+  font-size: 1.4vw !important;
+}
+.valentinecode-shopbutton {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: 10px !important;
+  width: 25% !important;
+  height: 5vh !important;
+  background-color: #000 !important;
+  color: #fff !important;
+  border: none !important;
+  border-radius: 10% !important;
+}
+@media screen and (max-width: 800px) {
+  .valentinecode-limited {
+    font-size: 2.4vw !important;
+    margin: 10px 0 0 0 !important;
+  }
+  .valentinecode-mainicon {
+    font-size: 2.4vw !important;
+  }
+  .valentinecode-maintimercontainer1 {
+    margin: 0 0 0 5% !important;
+
+    width: 9% !important;
+    height: 5vh !important;
+    background-color: rgb(65, 139, 240) !important;
+    border-radius: 15% !important;
+    color: #fff !important;
+  }
+  .valentinecode-maintimercontainer2 {
+    width: 9% !important;
+    height: 5vh !important;
+    text-align: center !important;
+    background-color: rgb(65, 139, 240) !important;
+    color: #fff !important;
+    border-radius: 15% !important;
+  }
+  .valentinecode-numberdiv {
+    margin: 23% 20% !important;
+    font-size: 2.4vw !important;
+  }
+  .valentinecode-mainparagraph1 {
+    position: relative !important;
+    right: 8.5% !important;
+    top: 2px !important;
+    font-size: 1.8vw !important;
+  }
+  .valentinecode-mainparagraph2 {
+    position: relative !important;
+    left: 2% !important;
+    top: 2px !important;
+    font-size: 1.8vw !important;
+  }
+  .valentinecode-mainparagraph3 {
+    position: relative !important;
+    left: 12% !important;
+    top: 2px !important;
+    font-size: 1.8vw !important;
+  }
+  .valentinecode-mainparagraph4 {
+    position: relative !important;
+    left: 18% !important;
+    top: 2px !important;
+    font-size: 1.8vw !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .valentinecode-maintimer {
+    width: 50% !important;
+  }
+  .valentinecode-main-Image {
+    width: 65% !important;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .valentinecode-maincontainers {
+    width: 39% !important;
+  }
+  .valentinecode-bigcontainertext {
+    font-size: 2.7vw !important;
+  }
+  .valentincode-bordertext {
+    font-size: 1.9vw !important;
+  }
+  .valentinecode-border {
+    width: 85% !important;
+    height: 8% !important;
+
+    padding: 10px 0 !important;
+  }
+  .valentinecode-limited {
+    font-size: 3vw !important;
+  }
+  .valentinecode-mainicon {
+    font-size: 3vw !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .valentinecode-maintimer {
+    width: 70% !important;
+  }
+  .valentinecode-limited {
+    font-size: 4vw !important;
+  }
+  .valentinecode-mainicon {
+    font-size: 4vw !important;
+  }
+  .valentinecode-maincontainers {
+    width: 60% !important;
+  }
+  .valentinecode-main-Image {
+    width: 60% !important;
+  }
+  .valentinecode-bigcontainertext {
+    font-size: 4vw !important;
+  }
+  .valentincode-bordertext {
+    font-size: 3vw !important;
+  }
+  .valentinecode-numberdiv {
+    margin: 23% 20% !important;
+    font-size: 5vw !important;
+  }
+  .valentinecode-mainparagraph1 {
+    position: relative !important;
+    right: 9% !important;
+    top: 2px !important;
+    font-size: 3.1vw !important;
+  }
+  .valentinecode-mainparagraph2 {
+    position: relative !important;
+    left: 3% !important;
+    top: 2px !important;
+    font-size: 3.1vw !important;
+  }
+  .valentinecode-mainparagraph3 {
+    position: relative !important;
+    left: 12% !important;
+    top: 2px !important;
+    font-size: 3.1vw !important;
+  }
+  .valentinecode-mainparagraph4 {
+    position: relative !important;
+    left: 18% !important;
+    top: 2px !important;
+    font-size: 3.1vw !important;
+  }
+  .valentinecode-shopbutton {
+    width: 30% !important;
+  }
+}
