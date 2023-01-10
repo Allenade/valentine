@@ -1375,7 +1375,7 @@
   background-color: #fff !important;
 }
 .valentinecode-main-Image {
-  width: 50% !important;
+  width: 42% !important;
   display: block !important;
   margin-left: auto !important;
   margin-right: auto !important;
@@ -1411,7 +1411,7 @@
   margin-left: auto !important;
   margin-right: auto !important;
   border-radius: 10%;
-  padding: 9px 0;
+  padding: 5px 0;
 }
 
 @media screen and (max-width: 800px) {
@@ -1703,4 +1703,477 @@
   .valentinecode-shopbutton {
     width: 30% !important;
   }
+}
+/* index13.................................................................... */
+/* index13.................................................................... */
+
+.valentinecode-mainscarcity {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.valentinecode-flashcontainer {
+  width: 20% !important;
+  height: 35vh !important;
+  border: 1px solid rgb(254, 41, 59) !important;
+  margin: 7% 0 0 0 !important;
+  border-radius: 5% !important;
+}
+.valentinecode-firstcontainer {
+  background-color: rgb(254, 41, 59) !important;
+  width: 100% !important;
+  height: 17.5vh !important;
+  border-radius: 5% !important;
+}
+.valentinecode-27slot {
+  padding: 17px 0 0 0 !important;
+  text-align: center !important;
+}
+.valentinecode-27 {
+  font-size: 3vw !important;
+  font-weight: 400 !important;
+  color: #fff !important;
+}
+.valentinecode-slot {
+  font-size: 2.8vw !important;
+  font-weight: 400 !important;
+  color: #fff !important;
+}
+.valentinecode-remainingcontainer {
+  padding: 17px 0 0 0 !important;
+  text-align: center !important;
+}
+.valentinecode-remaining {
+  color: rgb(255, 57, 68) !important;
+  font-size: 2.3vw !important;
+}
+.valentinecode-out {
+  color: rgb(255, 57, 68) !important;
+  font-size: 2.3vw !important;
+}
+
+@media screen and (max-width: 800px) {
+  .valentinecode-flashcontainer {
+    width: 25% !important;
+  }
+  .valentinecode-27slot {
+    padding: 31px 0 0 0 !important;
+  }
+  .valentinecode-remainingcontainer {
+    padding: 31px 0 0 0 !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .valentinecode-flashcontainer {
+    width: 30% !important;
+  }
+  .valentinecode-27slot {
+    padding: 35px 0 0 0 !important;
+  }
+  .valentinecode-remainingcontainer {
+    padding: 35px 0 0 0 !important;
+  }
+  .valentinecode-remaining {
+    font-size: 2.8vw !important;
+  }
+  .valentinecode-out {
+    font-size: 2.8vw !important;
+  }
+  .valentinecode-27 {
+    font-size: 4vw !important;
+  }
+  .valentinecode-slot {
+    font-size: 4vw !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  .valentinecode-flashcontainer {
+    width: 45% !important;
+  }
+  .valentinecode-27slot {
+    padding: 35px 0 0 0 !important;
+  }
+  .valentinecode-remainingcontainer {
+    padding: 35px 0 0 0 !important;
+  }
+  .valentinecode-remaining {
+    font-size: 4vw !important;
+  }
+  .valentinecode-out {
+    font-size: 4vw !important;
+  }
+  .valentinecode-27 {
+    font-size: 6vw !important;
+  }
+  .valentinecode-slot {
+    font-size: 6vw !important;
+  }
+}
+/* index14 & index16..................................................................................... */
+/* index14 & index16..................................................................................... */
+
+.valentinecode-firstmaincontainer {
+  margin: 10% 0 0 0 !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.secondmaincontainer {
+  width: 24% !important;
+  height: 50vh !important;
+  border: 1px solid rgb(254, 41, 59) !important;
+}
+.valentinecode-containerproduct {
+  width: 100% !important;
+}
+.valentinecode-productrelease {
+  margin: 15px 0 0 0 !important;
+}
+.valentinecode-newproduct {
+  font-size: 1.7vw !important;
+  width: 100% !important;
+  text-align: center !important;
+  color: rgb(241, 181, 84) !important;
+}
+.valentinecode-discover {
+  font-size: 1.1vw !important;
+  text-align: center !important;
+  color: rgb(152, 169, 178) !important;
+}
+.valentinecode-lose {
+  font-size: 1vw !important;
+  text-align: center !important;
+  color: rgb(152, 169, 178) !important;
+}
+.valentinecode-productreleasess {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.valentinecode-productreleases {
+  margin: 10px 0 0 0 !important;
+
+  width: 50% !important;
+}
+.valentinecode-divbutton {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: 15px 0 0 0 !important;
+}
+.valentinecode-buttondiv {
+  width: 50% !important;
+  padding: 2px 0 !important;
+  background-color: rgb(241, 181, 84) !important;
+  border: none;
+}
+.valentinecode-discover {
+  margin: 5px 0 !important;
+}
+
+@media screen and (max-width: 1200px) {
+  .secondmaincontainer {
+    height: 40vh !important;
+  }
+  .valentinecode-buttondiv {
+    border: none !important;
+    background-color: rgb(241, 181, 84) !important;
+    width: 50% !important;
+    color: #000 !important;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .secondmaincontainer {
+    height: 40vh !important;
+    width: 30% !important;
+  }
+  .valentinecode-buttondiv {
+    width: 70% !important;
+  }
+  .valentinecode-newproduct {
+    font-size: 2vw !important;
+  }
+  .valentinecode-discover {
+    font-size: 1.4vw !important;
+  }
+  .valentinecode-lose {
+    font-size: 1.5vw !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .secondmaincontainer {
+    height: 40vh !important;
+    width: 40% !important;
+  }
+  .valentinecode-buttondiv {
+    width: 70% !important;
+  }
+  .valentinecode-newproduct {
+    font-size: 2.7vw !important;
+  }
+  .valentinecode-discover {
+    font-size: 1.8vw !important;
+  }
+  .valentinecode-lose {
+    font-size: 2.1vw !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  .secondmaincontainer {
+    height: 38vh !important;
+    width: 60% !important;
+  }
+  .valentinecode-buttondiv {
+    width: 60% !important;
+  }
+  .valentinecode-newproduct {
+    font-size: 3.3vw !important;
+  }
+  .valentinecode-discover {
+    font-size: 2.7vw !important;
+  }
+  .valentinecode-lose {
+    font-size: 2.7vw !important;
+  }
+}
+/* index15................................................................................... */
+/* index15................................................................................... */
+
+.valentinecode-newslatter {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: 7% 0 0 0 !important;
+}
+.valentinecode-newlattercontainer {
+  width: 35% !important;
+  height: 55vh !important;
+  /* border: 2px solid #000; */
+}
+.valentinecode-newlattercontainer1 {
+  width: 100% !important;
+  height: 27.3vh !important;
+  background-color: #ff3300 !important;
+}
+.valentinecode-imgnews {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.valentinecode-newimgcontainer1s {
+  width: 40% !important;
+}
+.valentinecode-newlattercontainer2 {
+  width: 100% !important;
+  height: 27.3vh !important;
+  border: 1px solid #000 !important;
+}
+.valentinecode-newstexts {
+  font-size: 1.7vw !important;
+  text-align: center !important;
+  font-weight: 600 !important;
+  letter-spacing: 2px !important;
+  margin: 10px 0 0 0 !important;
+}
+.valentinecode-newstips {
+  margin: 8px 0 0 0 !important;
+
+  font-size: 1.2vw !important;
+  text-align: center !important;
+}
+.valentinecode-newswellnesss {
+  font-size: 1.2vw !important;
+  text-align: center !important;
+}
+.valentinecode-newsbtn1 {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+
+  margin: 8px 0 0 0 !important;
+}
+.valentinecode-newbtn1 {
+  width: 50% !important;
+  height: 5vh !important;
+  font-size: 1.3vw !important;
+}
+.valentinecode-newsbtn2 {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+
+  margin: 8px 0 0 0 !important;
+}
+.valentinecode-newbtn2 {
+  width: 50% !important;
+  height: 5vh !important;
+  font-size: 1.3vw !important;
+  color: #fff !important;
+  background-color: #000 !important;
+  border: none !important;
+}
+@media screen and (max-width: 800px) {
+  .valentinecode-newimgcontainer1s {
+    width: 60% !important;
+  }
+  .valentinecode-newstexts {
+    font-size: 2.1vw !important;
+    letter-spacing: 0.7px !important;
+  }
+  .valentinecode-newstips {
+    font-size: 1.4vw !important;
+  }
+  .valentinecode-newswellnesss {
+    font-size: 1.4vw !important;
+    margin: 5px 0 0 0 !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  .valentinecode-newlattercontainer {
+    width: 60% !important;
+  }
+  .valentinecode-newimgcontainer1s {
+    width: 60% !important;
+  }
+  .valentinecode-newstexts {
+    font-size: 3.5vw !important;
+    letter-spacing: 0.7px !important;
+  }
+  .valentinecode-newstips {
+    font-size: 2.5vw !important;
+  }
+  .valentinecode-newswellnesss {
+    font-size: 2.5vw !important;
+    margin: 5px 0 0 0 !important;
+  }
+  .valentinecode-newbtn2 {
+    font-size: 3.1vw !important;
+  }
+  .valentinecode-newbtn1 {
+    font-size: 2.8vw !important;
+  }
+}
+/* index16 .................................................................................... */
+/* index16 .................................................................................... */
+
+.secondmaincontainers {
+  width: 24% !important;
+  height: 53vh !important;
+  border: 1px solid rgb(254, 41, 59) !important;
+}
+.valentinecode-divbuttons {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: 15px 0 0 0 !important;
+}
+.valentinecode-buttondivs {
+  width: 70% !important;
+  padding: 5px 0 !important;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+.valentinecode-divbuttonss {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: 15px 0 0 0 !important;
+}
+.valentinecode-buttondivss {
+  width: 50% !important;
+  padding: 6px 0 !important;
+  background-color: rgb(241, 181, 84) !important;
+  border: none;
+}
+@media screen and (max-width: 800px) {
+  .secondmaincontainers {
+    width: 40% !important;
+    height: 53vh !important;
+    border: 1px solid rgb(254, 41, 59) !important;
+  }
+  .valentinecode-divbuttonss {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 15px 0 0 0 !important;
+  }
+  .valentinecode-buttondivss {
+    width: 50% !important;
+    padding: 6px 0 !important;
+    background-color: rgb(241, 181, 84) !important;
+    border: none;
+  }
+  .valentinecode-buttondivs {
+    width: 70% !important;
+    padding: 5px 0 !important;
+    background-color: #fff !important;
+    border: 1px solid #000 !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .secondmaincontainers {
+    width: 40% !important;
+    height: 53vh !important;
+    border: 1px solid rgb(254, 41, 59) !important;
+  }
+  .valentinecode-divbuttonss {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 15px 0 0 0 !important;
+  }
+  .valentinecode-buttondivss {
+    width: 70% !important;
+    padding: 6px 0 !important;
+    background-color: rgb(241, 181, 84) !important;
+    border: none !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .secondmaincontainers {
+    width: 70% !important;
+    height: 53vh !important;
+    border: 1px solid rgb(254, 41, 59) !important;
+  }
+  .valentinecode-divbuttonss {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 15px 0 0 0 !important;
+  }
+  .valentinecode-buttondivss {
+    width: 70% !important;
+    padding: 6px 0 !important;
+    background-color: rgb(241, 181, 84) !important;
+    border: none !important;
+  }
+}
+
+/* index18 .................................................................... */
+/* index18 .................................................................... */
+.valentinecode-mainbooking {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.valentinecode-bookingcontainer {
+  width: 30%;
+  height: 50vh;
+  border: 1px solid #000;
+  margin: 7% 0 0 0;
+}
+.valentinecode-mainbookingcontainer1 {
+  width: 100%;
+  height: 25vh;
+}
+.valentinecode-mainbookingcontainer2 {
+  width: 100%;
+  height: 25vh;
+  border: 1px solid #000;
+  background-color: rgb(66, 81, 100);
 }
