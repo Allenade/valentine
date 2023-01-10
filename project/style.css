@@ -2163,7 +2163,7 @@
 }
 .valentinecode-bookingcontainer {
   width: 30%;
-  height: 50vh;
+  height: 52vh;
   border: 1px solid #000;
   margin: 7% 0 0 0;
 }
@@ -2171,9 +2171,218 @@
   width: 100%;
   height: 25vh;
 }
+.valentinecode-mainshoe {
+  width: 40%;
+}
+.valentinecode-mainshoes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .valentinecode-mainbookingcontainer2 {
   width: 100%;
-  height: 25vh;
+  height: 27vh;
   border: 1px solid #000;
   background-color: rgb(66, 81, 100);
+}
+
+.valentinecode-meet {
+  font-size: 1.4vw;
+  text-align: center;
+  margin: 4% 0 0 0;
+  color: #fff;
+}
+.valentinecode-sales {
+  font-size: 1.4vw;
+  text-align: center;
+  color: #fff;
+}
+.valentinecode-revenue {
+  font-size: 1.2vw;
+  text-align: center;
+  color: #fff;
+}
+.valentinecode-book {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.valentinecode-books {
+  margin: 4% 0 0 0;
+  border-radius: 10px;
+  width: 57%;
+  height: 6vh;
+  background-color: rgb(254, 41, 59);
+}
+.valentinecode-bookss {
+  font-size: 1.2vw;
+  text-align: center;
+  margin: 5% 0 0 0;
+  color: #fff;
+}
+.valentinecode-powered {
+  margin: 2% 0 0 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.valentinecode-by {
+  color: #fff;
+  font-size: 1vw;
+}
+
+@media screen and (max-width: 1200px) {
+  .valentinecode-bookingcontainer {
+    width: 30%;
+    height: 49vh;
+  }
+  .valentinecode-mainbookingcontainer2 {
+    width: 100%;
+    height: 23.7vh;
+    border: 1px solid #000;
+    background-color: rgb(66, 81, 100);
+  }
+  .valentinecode-bookss {
+    margin: 7% 0 0 0;
+  }
+  .valentinecode-mainshoe {
+    width: 50%;
+  }
+  .valentinecode-powered {
+    margin: 4% 0 0 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .valentinecode-bookingcontainer {
+    width: 35%;
+    height: 49vh;
+  }
+  .valentinecode-mainbookingcontainer2 {
+    width: 100%;
+    height: 23.7vh;
+    border: 1px solid #000;
+    background-color: rgb(66, 81, 100);
+  }
+  .valentinecode-bookss {
+    margin: 8% 0 0 0;
+    font-size: 1.4vw;
+  }
+  .valentinecode-mainshoe {
+    width: 55%;
+  }
+  .valentinecode-powered {
+    margin: 4% 0 0 0;
+    font-size: 1.8vw;
+  }
+  .valentinecode-meet {
+    font-size: 1.7vw;
+    text-align: center;
+    margin: 4% 0 0 0;
+    color: #fff;
+  }
+  .valentinecode-sales {
+    font-size: 1.7vw;
+    text-align: center;
+    color: #fff;
+  }
+  .valentinecode-revenue {
+    font-size: 1.5vw;
+    text-align: center;
+    color: #fff;
+  }
+  .valentinecode-by {
+    font-size: 1.4vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .valentinecode-bookingcontainer {
+    width: 45%;
+    height: 49vh;
+  }
+  .valentinecode-mainbookingcontainer2 {
+    width: 100%;
+    height: 23.7vh;
+    border: 1px solid #000;
+    background-color: rgb(66, 81, 100);
+  }
+  .valentinecode-bookss {
+    margin: 8% 0 0 0;
+    font-size: 1.8vw;
+  }
+  .valentinecode-mainshoe {
+    width: 55%;
+  }
+  .valentinecode-powered {
+    margin: 4% 0 0 0;
+    font-size: 1.8vw;
+  }
+  .valentinecode-meet {
+    font-size: 2.1vw;
+    text-align: center;
+    margin: 4% 0 0 0;
+    color: #fff;
+  }
+  .valentinecode-sales {
+    font-size: 2.1vw;
+    text-align: center;
+    color: #fff;
+  }
+  .valentinecode-revenue {
+    font-size: 1.9vw;
+    text-align: center;
+    color: #fff;
+  }
+  .valentinecode-by {
+    font-size: 1.6vw;
+  }
+}
+@media screen and (max-width: 400px) {
+  .valentinecode-bookingcontainer {
+    width: 70%;
+    height: 47vh;
+  }
+  .valentinecode-mainbookingcontainer2 {
+    width: 100%;
+    height: 22vh;
+    border: 1px solid #000;
+    background-color: rgb(66, 81, 100);
+  }
+  .valentinecode-books {
+    margin: 8% 0 0 0;
+    font-size: 3vw;
+    width: 70%;
+  }
+  .valentinecode-bookss {
+    margin: 8% 0 0 0;
+    font-size: 3vw;
+    width: 100%;
+  }
+  .valentinecode-mainshoe {
+    width: 55%;
+  }
+  .valentinecode-powered {
+    margin: 5% 0 0 0;
+  }
+  .valentinecode-meet {
+    font-size: 3.1vw;
+    text-align: center;
+    margin: 4% 0 0 0;
+    color: #fff;
+  }
+  .valentinecode-sales {
+    font-size: 3.1vw;
+    text-align: center;
+    color: #fff;
+  }
+  .valentinecode-revenue {
+    font-size: 2.9vw;
+    text-align: center;
+    color: #fff;
+  }
+  .valentinecode-by {
+    font-size: 2.6vw;
+  }
 }
